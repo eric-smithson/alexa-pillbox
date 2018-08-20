@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my pillbox",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TakeMedicineIntent",
+                    "slots": [],
+                    "samples": [
+                        "I took my medication",
+                        "took medication",
+                        "took my medicine",
+                        "I took it",
+                        "I took my medicine"
+                    ]
+                },
+                {
+                    "name": "AskIfTookMedicineIntent",
+                    "slots": [],
+                    "samples": [
+                        "If I took my medication",
+                        "If I took my medicine",
+                        "If I took it",
+                        "Did I take it",
+                        "I forgot if I took my medication",
+                        "Did I take my medication",
+                        "I forgot if I took my medicine",
+                        "Did I take my medicine"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
